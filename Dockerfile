@@ -13,4 +13,4 @@ run	git clone git://github.com/etsy/statsd.git statsd
 
 expose	8125/udp
 
-cmd	/usr/local/bin/node /statsd/stats.js /statsd/config.js
+cmd	/usr/bin/node /statsd/stats.js /etc/statsd.cfg.js
